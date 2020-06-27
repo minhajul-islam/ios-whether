@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5358C3D424A6680F00ABDCDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3D324A6680F00ABDCDE /* AppDelegate.swift */; };
+		5358C3D624A6680F00ABDCDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3D524A6680F00ABDCDE /* SceneDelegate.swift */; };
+		5358C3D824A6680F00ABDCDE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3D724A6680F00ABDCDE /* WeatherViewController.swift */; };
+		5358C3DB24A6680F00ABDCDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358C3D924A6680F00ABDCDE /* Main.storyboard */; };
+		5358C3DD24A6681200ABDCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358C3DC24A6681200ABDCDE /* Assets.xcassets */; };
+		5358C3E024A6681200ABDCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358C3DE24A6681200ABDCDE /* LaunchScreen.storyboard */; };
+		5358C3EB24A6681200ABDCDE /* ios_whetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3EA24A6681200ABDCDE /* ios_whetherTests.swift */; };
+		5358C3F624A6681200ABDCDE /* ios_whetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3F524A6681200ABDCDE /* ios_whetherUITests.swift */; };
+		5358C40924A66C2500ABDCDE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C40824A66C2500ABDCDE /* WeatherData.swift */; };
+		5358C40B24A66DE900ABDCDE /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C40A24A66DE900ABDCDE /* WeatherModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5358C3E724A6681200ABDCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5358C3C824A6680F00ABDCDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5358C3CF24A6680F00ABDCDE;
+			remoteInfo = "ios-whether";
+		};
+		5358C3F224A6681200ABDCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5358C3C824A6680F00ABDCDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5358C3CF24A6680F00ABDCDE;
+			remoteInfo = "ios-whether";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5358C3D024A6680F00ABDCDE /* ios-whether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-whether.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358C3D324A6680F00ABDCDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5358C3D524A6680F00ABDCDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5358C3D724A6680F00ABDCDE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherViewController.swift; path = "ios-whether/WeatherViewController.swift"; sourceTree = SOURCE_ROOT; };
+		5358C3DA24A6680F00ABDCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5358C3DC24A6681200ABDCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5358C3DF24A6681200ABDCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5358C3E124A6681200ABDCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358C3E624A6681200ABDCDE /* ios-whetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-whetherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358C3EA24A6681200ABDCDE /* ios_whetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_whetherTests.swift; sourceTree = "<group>"; };
+		5358C3EC24A6681200ABDCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358C3F124A6681200ABDCDE /* ios-whetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-whetherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358C3F524A6681200ABDCDE /* ios_whetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_whetherUITests.swift; sourceTree = "<group>"; };
+		5358C3F724A6681200ABDCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358C40824A66C2500ABDCDE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		5358C40A24A66DE900ABDCDE /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5358C3CD24A6680F00ABDCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3E324A6681200ABDCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3EE24A6681200ABDCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5358C3C724A6680F00ABDCDE = {
+			isa = PBXGroup;
+			children = (
+				5358C3D224A6680F00ABDCDE /* ios-whether */,
+				5358C3E924A6681200ABDCDE /* ios-whetherTests */,
+				5358C3F424A6681200ABDCDE /* ios-whetherUITests */,
+				5358C3D124A6680F00ABDCDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5358C3D124A6680F00ABDCDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5358C3D024A6680F00ABDCDE /* ios-whether.app */,
+				5358C3E624A6681200ABDCDE /* ios-whetherTests.xctest */,
+				5358C3F124A6681200ABDCDE /* ios-whetherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5358C3D224A6680F00ABDCDE /* ios-whether */ = {
+			isa = PBXGroup;
+			children = (
+				5358C3D324A6680F00ABDCDE /* AppDelegate.swift */,
+				5358C3D524A6680F00ABDCDE /* SceneDelegate.swift */,
+				5358C3D924A6680F00ABDCDE /* Main.storyboard */,
+				5358C40524A66AA900ABDCDE /* Model */,
+				5358C40C24A670F200ABDCDE /* View */,
+				5358C40724A66ADE00ABDCDE /* Controller */,
+				5358C3DC24A6681200ABDCDE /* Assets.xcassets */,
+				5358C3DE24A6681200ABDCDE /* LaunchScreen.storyboard */,
+				5358C3E124A6681200ABDCDE /* Info.plist */,
+			);
+			path = "ios-whether";
+			sourceTree = "<group>";
+		};
+		5358C3E924A6681200ABDCDE /* ios-whetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5358C3EA24A6681200ABDCDE /* ios_whetherTests.swift */,
+				5358C3EC24A6681200ABDCDE /* Info.plist */,
+			);
+			path = "ios-whetherTests";
+			sourceTree = "<group>";
+		};
+		5358C3F424A6681200ABDCDE /* ios-whetherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5358C3F524A6681200ABDCDE /* ios_whetherUITests.swift */,
+				5358C3F724A6681200ABDCDE /* Info.plist */,
+			);
+			path = "ios-whetherUITests";
+			sourceTree = "<group>";
+		};
+		5358C40524A66AA900ABDCDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5358C40824A66C2500ABDCDE /* WeatherData.swift */,
+				5358C40A24A66DE900ABDCDE /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5358C40724A66ADE00ABDCDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5358C3D724A6680F00ABDCDE /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5358C40C24A670F200ABDCDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5358C3CF24A6680F00ABDCDE /* ios-whether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358C3FA24A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whether" */;
+			buildPhases = (
+				5358C3CC24A6680F00ABDCDE /* Sources */,
+				5358C3CD24A6680F00ABDCDE /* Frameworks */,
+				5358C3CE24A6680F00ABDCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-whether";
+			productName = "ios-whether";
+			productReference = 5358C3D024A6680F00ABDCDE /* ios-whether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5358C3E524A6681200ABDCDE /* ios-whetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358C3FD24A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whetherTests" */;
+			buildPhases = (
+				5358C3E224A6681200ABDCDE /* Sources */,
+				5358C3E324A6681200ABDCDE /* Frameworks */,
+				5358C3E424A6681200ABDCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5358C3E824A6681200ABDCDE /* PBXTargetDependency */,
+			);
+			name = "ios-whetherTests";
+			productName = "ios-whetherTests";
+			productReference = 5358C3E624A6681200ABDCDE /* ios-whetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5358C3F024A6681200ABDCDE /* ios-whetherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358C40024A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whetherUITests" */;
+			buildPhases = (
+				5358C3ED24A6681200ABDCDE /* Sources */,
+				5358C3EE24A6681200ABDCDE /* Frameworks */,
+				5358C3EF24A6681200ABDCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5358C3F324A6681200ABDCDE /* PBXTargetDependency */,
+			);
+			name = "ios-whetherUITests";
+			productName = "ios-whetherUITests";
+			productReference = 5358C3F124A6681200ABDCDE /* ios-whetherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5358C3C824A6680F00ABDCDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "minhajul islam";
+				TargetAttributes = {
+					5358C3CF24A6680F00ABDCDE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5358C3E524A6681200ABDCDE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5358C3CF24A6680F00ABDCDE;
+					};
+					5358C3F024A6681200ABDCDE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5358C3CF24A6680F00ABDCDE;
+					};
+				};
+			};
+			buildConfigurationList = 5358C3CB24A6680F00ABDCDE /* Build configuration list for PBXProject "ios-whether" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5358C3C724A6680F00ABDCDE;
+			productRefGroup = 5358C3D124A6680F00ABDCDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5358C3CF24A6680F00ABDCDE /* ios-whether */,
+				5358C3E524A6681200ABDCDE /* ios-whetherTests */,
+				5358C3F024A6681200ABDCDE /* ios-whetherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5358C3CE24A6680F00ABDCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358C3E024A6681200ABDCDE /* LaunchScreen.storyboard in Resources */,
+				5358C3DD24A6681200ABDCDE /* Assets.xcassets in Resources */,
+				5358C3DB24A6680F00ABDCDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3E424A6681200ABDCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3EF24A6681200ABDCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5358C3CC24A6680F00ABDCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358C3D824A6680F00ABDCDE /* WeatherViewController.swift in Sources */,
+				5358C3D424A6680F00ABDCDE /* AppDelegate.swift in Sources */,
+				5358C40924A66C2500ABDCDE /* WeatherData.swift in Sources */,
+				5358C3D624A6680F00ABDCDE /* SceneDelegate.swift in Sources */,
+				5358C40B24A66DE900ABDCDE /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3E224A6681200ABDCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358C3EB24A6681200ABDCDE /* ios_whetherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5358C3ED24A6681200ABDCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358C3F624A6681200ABDCDE /* ios_whetherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5358C3E824A6681200ABDCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5358C3CF24A6680F00ABDCDE /* ios-whether */;
+			targetProxy = 5358C3E724A6681200ABDCDE /* PBXContainerItemProxy */;
+		};
+		5358C3F324A6681200ABDCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5358C3CF24A6680F00ABDCDE /* ios-whether */;
+			targetProxy = 5358C3F224A6681200ABDCDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5358C3D924A6680F00ABDCDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358C3DA24A6680F00ABDCDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5358C3DE24A6681200ABDCDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358C3DF24A6681200ABDCDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5358C3F824A6681200ABDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5358C3F924A6681200ABDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5358C3FB24A6681200ABDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whether/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5358C3FC24A6681200ABDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whether/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whether";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5358C3FE24A6681200ABDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whetherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-whether.app/ios-whether";
+			};
+			name = Debug;
+		};
+		5358C3FF24A6681200ABDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whetherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whetherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-whether.app/ios-whether";
+			};
+			name = Release;
+		};
+		5358C40124A6681200ABDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whetherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-whether";
+			};
+			name = Debug;
+		};
+		5358C40224A6681200ABDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3XD6PUFWK;
+				INFOPLIST_FILE = "ios-whetherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mworkstation.ios-whetherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-whether";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5358C3CB24A6680F00ABDCDE /* Build configuration list for PBXProject "ios-whether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358C3F824A6681200ABDCDE /* Debug */,
+				5358C3F924A6681200ABDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358C3FA24A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358C3FB24A6681200ABDCDE /* Debug */,
+				5358C3FC24A6681200ABDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358C3FD24A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358C3FE24A6681200ABDCDE /* Debug */,
+				5358C3FF24A6681200ABDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358C40024A6681200ABDCDE /* Build configuration list for PBXNativeTarget "ios-whetherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358C40124A6681200ABDCDE /* Debug */,
+				5358C40224A6681200ABDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5358C3C824A6680F00ABDCDE /* Project object */;
+}

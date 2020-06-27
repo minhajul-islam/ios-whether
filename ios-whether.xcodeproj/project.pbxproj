@@ -17,6 +17,7 @@
 		5358C3F624A6681200ABDCDE /* ios_whetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C3F524A6681200ABDCDE /* ios_whetherUITests.swift */; };
 		5358C40924A66C2500ABDCDE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C40824A66C2500ABDCDE /* WeatherData.swift */; };
 		5358C40B24A66DE900ABDCDE /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C40A24A66DE900ABDCDE /* WeatherModel.swift */; };
+		5358C40E24A7261E00ABDCDE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358C40D24A7261E00ABDCDE /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5358C3F724A6681200ABDCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5358C40824A66C2500ABDCDE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		5358C40A24A66DE900ABDCDE /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		5358C40D24A7261E00ABDCDE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				5358C40824A66C2500ABDCDE /* WeatherData.swift */,
 				5358C40A24A66DE900ABDCDE /* WeatherModel.swift */,
+				5358C40D24A7261E00ABDCDE /* WeatherManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5358C40E24A7261E00ABDCDE /* WeatherManager.swift in Sources */,
 				5358C3D824A6680F00ABDCDE /* WeatherViewController.swift in Sources */,
 				5358C3D424A6680F00ABDCDE /* AppDelegate.swift in Sources */,
 				5358C40924A66C2500ABDCDE /* WeatherData.swift in Sources */,

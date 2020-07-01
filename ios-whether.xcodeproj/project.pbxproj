@@ -110,9 +110,8 @@
 			children = (
 				5358C3D324A6680F00ABDCDE /* AppDelegate.swift */,
 				5358C3D524A6680F00ABDCDE /* SceneDelegate.swift */,
-				5358C3D924A6680F00ABDCDE /* Main.storyboard */,
+				53D5676A24AC5B8E00EB41B2 /* View */,
 				5358C40524A66AA900ABDCDE /* Model */,
-				5358C40C24A670F200ABDCDE /* View */,
 				5358C40724A66ADE00ABDCDE /* Controller */,
 				5358C3DC24A6681200ABDCDE /* Assets.xcassets */,
 				5358C3DE24A6681200ABDCDE /* LaunchScreen.storyboard */,
@@ -157,9 +156,10 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		5358C40C24A670F200ABDCDE /* View */ = {
+		53D5676A24AC5B8E00EB41B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5358C3D924A6680F00ABDCDE /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
